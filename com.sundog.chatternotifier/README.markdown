@@ -13,6 +13,7 @@ Chatter Notifier for Android will display system and [Sony Smartwatch](http://ww
 # Contact Us
 
 [Android Market Link](https://play.google.com/store/apps/details?id=com.sundog.chatternotifier)
+
 android@sundoginteractive.com    
 
 
@@ -20,8 +21,11 @@ android@sundoginteractive.com
 # Third-party software
 
 [Salesforce Mobile SDK for Android](http://wiki.developerforce.com/page/Getting_Started_with_the_Mobile_SDK_for_Android)
+
 [Sony Smartwatch SDK](http://developer.sonymobile.com/wportal/devworld/technology/smart-extras/smart-extension-sdk)
+
 [Application Crash Report for Android](http://code.google.com/p/acra/)
+
 [Flurry Analytics](http://www.flurry.com)
 
 
