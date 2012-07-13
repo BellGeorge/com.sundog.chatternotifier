@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Preferences" >
+        <ListPreference
+            android:defaultValue="1800000"
+            android:entries="@array/interval"
+            android:entryValues="@array/intervalvalues"
+            android:key="interval"
+            android:summary="Determines the time interval to check for updates to Chatter"
+            android:title="Update Interval" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="displayNotification"
+            android:summary="Will display notifications in the status bar.  Uncheck if you wish to only receive SmartWatch notifications"
+            android:title="Display Notifications" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkPosts"
+            android:summary="Notifies of new Chatter posts"
+            android:title="New Chatter Posts" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkComments"
+            android:summary="Notifies of new Chatter comments"
+            android:title="New Chatter Comments" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkLikes"
+            android:summary="Notifies of new Chatter likes"
+            android:title="New Chatter Likes" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="runAtStart"
+            android:summary="Start the notifier when your phone starts"
+            android:title="Run at Startup" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

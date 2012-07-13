@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"><b>Chatter Notifier</b></string>
+    <string name="welcome">Welcome %s</string>
+    <string name="logout_button">Logout</string>
+    <string name="api_version">v23.0</string>
+    <string name="tag">ChatterNotifier</string>
+    <string name="logOut">Logout of Salesforce</string>
+    <string name="app_name">Chatter Notifier</string>
+    <!-- Title of preference activity -->
+    <string name="preference_activity_title">Chatter notification Settings</string>
+    <!-- Configuration text shown in preferences -->
+    <string name="configuration_text">Chatter notification settings</string>
+    <!-- Extension name, shown in preferences -->
+    <string name="extension_name">Chatter notification</string>
+    <!-- Name of source, shown in preferences -->
+    <string name="source_name">Chatter notification source</string>
+    <!-- Action Toast, shown on accessory -->
+    <string name="action_event_1">Clear All</string>
+    <string name="preference_option_is_active">Active</string>
+    <string name="preference_key_is_active">preference_key_is_active</string>
+
+    <!-- ACRA Stuff -->
+    <string name="crash_toast_text">Ooooops ! ChatterNotifier has crashed, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="crash_notif_ticker_text">Unexpected error, please send a report.</string>
+    <string name="crash_notif_title">ChatterNotifier has crashed.</string>
+    <string name="crash_notif_text">Please click here to help fix the issue.</string>
+    <string name="crash_dialog_title">ChatterNotifier has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing ChatterNotifier to stop. Please help us fix this by sending us error data,
+    all you have to do is click \'OK\'.</string>
+    <string name="crash_dialog_comment_prompt">Please add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you!</string>
+
+</resources>
